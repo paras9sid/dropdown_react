@@ -7,7 +7,7 @@ function App() {
         
         <h1>Should you use a dropdown?</h1>
         <select className='dropdown-search-box'>
-          <option>Select</option>
+          <option value="" disabled selected>Select</option>
           <option>Yes</option>
           <option>Probably not</option>
         </select>
